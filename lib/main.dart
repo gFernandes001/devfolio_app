@@ -35,7 +35,7 @@ class DevFolioHomePage extends StatefulWidget {
 
 class _DevFolioHomePageState extends State<DevFolioHomePage> {
   int _commits = 42;
-  final int _projetosConcluidos = 6;
+  final final int _projetosConcluidos = 6;
   bool _mostrarIntegrante2 = false;
 
   void _registrarNovoCommit() {
